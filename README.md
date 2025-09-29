@@ -1,2 +1,133 @@
 # githubpagetest
-github page
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi primera página personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3d59, #3a6ea5);
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .profile-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .profile-card img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #1e3d59;
+            margin-bottom: 15px;
+        }
+
+        .profile-card h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #1e3d59;
+        }
+
+        main {
+            padding: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        
+        section {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #1e3d59;
+            border-left: 6px solid #3a6ea5;
+            padding-left: 10px;
+            margin-top: 0;
+        }
+
+        footer {
+            background: #1e3d59;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        a {
+            color: #3a6ea5;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-card">
+            <img src="images.jpg.jpeg" alt="Foto de Nathan Rojas">
+            <h1>¡Hola, soy Nathan Rojas!</h1>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre mí</h2>
+            <p>
+                Soy estudiante de <strong>Ciencias de la Computación</strong> en la 
+                <strong>Universidad Nacional Mayor de San Marcos (UNMSM)</strong>. 
+                Actualmente me encuentro a mitad de mi carrera, consolidando los conocimientos adquiridos para aplicarlos en el futuro. 
+                Mi objetivo es especializarme en <em>Inteligencia Artificial</em> y <em>Ciberseguridad</em>. 
+                Me apasiona la tecnología y cómo su constante evolución transforma y mejora nuestra vida cotidiana.
+            </p>
+            <p><strong>Actualmente estoy aprendiendo:</strong></p>
+            <ul>
+                <li>Bases de datos</li>
+                <li>C++</li>
+                <li>Python</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Mis hobbies</h2>
+            <ul>
+                <li>Programar</li>
+                <li>Jugar fútbol</li>
+                <li>Leer sobre ciencia y tecnología</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contacto</h2>
+            <p>Puedes escribirme a: <a href="mailto:rojasnathan909@gmail.com">rojasnathan909@gmail.com</a></p>
+            <p><a href="https://www.linkedin.com/in/nathan-ray-rojas-nazario-b4aa04329">LinkedIn</a></p>
+            <p><a href="https://github.com/nathan-rojas">GitHub</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nathan Rojas</p>
+    </footer>
+</body>
+</html>
